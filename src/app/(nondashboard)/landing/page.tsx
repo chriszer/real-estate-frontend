@@ -1,3 +1,4 @@
+import DsicoverSection from "./DiscoverSection";
 import FeatureSection from "./FeatureSection";
 import HeroSection from "./HeroSection";
 
@@ -6,6 +7,7 @@ const Landing = () => {
     <div>
       <HeroSection />
       <FeatureSection />
+      <DsicoverSection />
     </div>
   );
 };
