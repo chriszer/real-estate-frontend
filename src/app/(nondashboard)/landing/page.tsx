@@ -1,4 +1,5 @@
-import DsicoverSection from "./DiscoverSection";
+import CallToActionSection from "./CallToActionSection";
+import DiscoverSection from "./DiscoverSection";
 import FeatureSection from "./FeatureSection";
 import HeroSection from "./HeroSection";
 
@@ -7,7 +8,8 @@ const Landing = () => {
     <div>
       <HeroSection />
       <FeatureSection />
-      <DsicoverSection />
+      <DiscoverSection />
+      <CallToActionSection />
     </div>
   );
 };
